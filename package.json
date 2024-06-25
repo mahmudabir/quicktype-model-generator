@@ -1,0 +1,17 @@
+{
+  "name": "quicktype-model-generator",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "quicktype-core": "^23.0.170"
+  }
+}
